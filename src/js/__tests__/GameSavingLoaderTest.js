@@ -1,5 +1,4 @@
 import GameSavingLoader from '../GameSavingLoader';
-import GameSaving from '../GameSaving';
 
 test('Positive test of the load method of the GameSavingLoader class', async () => {
   const data = await GameSavingLoader.load();
